@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Менің жеке сайтым</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 70px 20px;
+      background: linear-gradient(135deg, #2563eb, #7c3aed);
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 12px;
+    }
+
+    section {
+      max-width: 700px;
+      margin: 35px auto;
+      padding: 30px 20px;
+      background: #1e293b;
+      border-radius: 16px;
+    }
+
+    p {
+      line-height: 1.8;
+      color: #cbd5e1;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 22px;
+      background: #38bdf8;
+      color: #0f172a;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    footer {
+      padding: 25px;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Сәлем! Менің сайтым</h1>
+    <p>Менің жеке парақшама қош келдің!</p>
+  </header>
+
+  <section>
+    <h2>Мен туралы</h2>
+    <p>
+      Менің атым — осында атыңды жаз.
+      Бұл менің алғашқы жеке сайтым.
+      Мен жаңа нәрселерді үйренгенді ұнатамын.
+    </p>
+  </section>
+
+  <section>
+    <h2>Менің қызығушылықтарым</h2>
+    <p>Мұнда өзіңнің хоббиіңді, арманыңды
+    және қызығушылықтарыңды жаза аласың.</p>
+  </section>
+
+  <section>
+    <h2>Байланыс</h2>
+    <p>Менімен байланысуға қош келдің!</p>
+    <a href="https://github.com/">Менің GitHub-ым</a>
+  </section>
+
+  <footer>
+    © 2026 Менің жеке сайтым
+  </footer>
+
+</body>
+</html>
